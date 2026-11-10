@@ -1,0 +1,7 @@
+.git
+.gitignore
+.gitattributes
+Dockerfile*
+docker-compose*.yml
+README.md
+.gemini

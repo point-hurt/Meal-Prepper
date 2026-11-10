@@ -1,0 +1,10 @@
+services:
+  meal-prepper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: meal-prepper:latest
+    container_name: meal-prepper
+    restart: unless-stopped
+    ports:
+      - "8080:80"
